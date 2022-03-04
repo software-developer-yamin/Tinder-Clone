@@ -60,6 +60,12 @@ body {
   cursor: pointer;
 }
 
+.nav-button:disabled {
+  color: rgb(160, 38, 75);
+  background-color: rgb(189, 180, 180);
+  cursor:not-allowed
+}
+
 /*---- Home Page Styles ----*/
 .overlay {
   width: 100vw;
