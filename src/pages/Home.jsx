@@ -6,7 +6,7 @@ function Home() {
     console.log("clicked");
   };
   return (
-    <>
+    <div className="overlay">
       <Nav minimal={false} authToken={authToken} />
       <div className="home">
         <h1>Swipe Right@</h1>
@@ -14,7 +14,7 @@ function Home() {
           {authToken ? "Sign Out" : "Create Account"}
         </button>
       </div>
-    </>
+    </div>
   );
 }
 
