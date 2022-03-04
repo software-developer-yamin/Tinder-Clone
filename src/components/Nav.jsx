@@ -11,7 +11,7 @@ function Nav({ minimal, authToken }) {
           alt="Tinder_Logo"
         />
       </div>
-      {!authToken && <button className="nav-button">Log In</button>}
+      {!authToken && !minimal && <button className="nav-button">Log In</button>}
     </nav>
   );
 }
